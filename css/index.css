@@ -1,0 +1,289 @@
+header {
+  width: 100%;
+  height: 76px;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+.submenu {
+  display: none;
+}
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  /* overflow-y: hidden; */
+  font-family: 'Oswald', sans-serif;
+}
+.header_box {
+  width: 1200px;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+}
+.page {
+  color: white;
+  font-size: 24px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.page:last-child {
+  margin-right: 0px;
+}
+.pages {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:hover {
+  opacity: 0.7;
+  transition: 0.4s;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  color: black;
+  font-size: 30px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.pages_picture {
+  width: 25%;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+.heading {
+  margin-top: 100px;
+}
+
+.main_container {
+  background-image: url('../images/orangemain.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;
+}
+.main_container_lolita {
+  background-image: url('../images/lolita_main.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;
+}
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  width: 181px;
+  padding: 5px;
+  border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+z-index: 2;
+position: absolute;
+left: 48px;
+top: 870px;
+}
+ol {
+margin: 0;
+}
+a {
+  color: black;
+}
+.href {
+  color: white;
+}
+.ss {
+  z-index: 1;
+}
+.nav_text {
+  color: white;
+}
+.white {
+  color: white;
+}
+li {
+  color: black;
+}
+.shine {
+  display: flex;
+  width: 1020px !important;
+  margin-left: 330px !important;
+  justify-content: space-between;
+}
+.underline {
+  text-decoration: underline;
+}
+.main_head {
+  font-size: 60px;
+  color: white;
+}
+.margin {
+  margin-top: 150px !important;
+  width: 1000px !important;
+  display: flex;
+}
+.form_text {
+
+}
+.element {
+  border: 1px solid white;
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  margin:10px;
+}
+/* input {
+  margin-right: 50px;
+} */
+.form_window {
+  width: 100%;
+  border-radius: 30px;
+  padding: 50px;
+  background: white;
+}
+h1 {
+  color: white;
+}
+.image {
+  margin-bottom: 50px;
+}
+.images {
+  margin-bottom: 320px;
+}
+.last {
+  margin-bottom: 387px;
+}
+.text {
+  margin-top: -2px;
+}
+.photo_container {
+  width: 300px;
+  margin-top: 230px;
+}
+.text_container {
+  width: 661px;
+}
+.middle_text {
+  font-size: 32px;
+line-height: 47px;
+color: white;
+margin-bottom: 30px;
+margin-top: 40px;
+}
+.main_container_shining {
+  background-image: url('../images/video.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;
+}
+.images_table {
+  margin-left: 45px;
+}
+.this {
+  text-decoration: underline;
+  color: white;
+}
+table {
+  margin-top: 100px;
+  border: 1;
+  border-color: black;
+  background-image: url('../images/table.png');
+  width: 676px;
+  height: 374px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+.main_text {
+  margin-left: 76px;
+  margin-bottom: 40px;
+}
+.up_case {
+  display: flex;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+}
+.image_up {
+  background-image: url('../images/up.svg');
+  width: 50px;
+height: 50px;
+}
+.text_up {
+  color: white;
+  font-size: 30px;
+  margin-right: 40px;
+}
+.next {
+  margin-top: 50px;
+  text-decoration: underline;
+  color: white;
+  font-weight: 300;
+font-size: 32px;
+line-height: 47px;
+}
+.heading {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
+.text_mini {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  line-height: 29px;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+}
+li {
+margin-left: -20px;
+}
+.submenu {
+  width: 100px;
+  background: white;
+  position: absolute;
+  top: 100px;
+  z-index: 10;
+}
+.main {
+  color: white;
+  font-size: 80px;
+}
+.date {
+  color: white;
+  font-size: 50px;
+}
+.pages_picture:hover {
+  transition: all 0.5s;
+  box-shadow: 0px 4px 45px 11px #000000;
+  z-index: 10;
+}
+.pages_picture_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  transition: all 0.5s;
+}
